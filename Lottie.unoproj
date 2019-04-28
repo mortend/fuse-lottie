@@ -1,5 +1,4 @@
 {
-  "RootNamespace":"",
   "Packages": [
     "Fuse",
     "FuseJS"
@@ -7,6 +6,9 @@
   "Includes": [
     "*"
   ],
-	"Version": "1.0.0"
+  "Excludes": [
+    "*.json",
+    "*.md",
+    "*.tgz"
+  ]
 }
-
